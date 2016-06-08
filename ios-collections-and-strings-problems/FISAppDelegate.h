@@ -6,10 +6,10 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-/**
- 
- * Declare your methods here!
- 
- */
+-(void)printInFrame:(NSArray *)words;
+
+-(NSString *)toPigLatin:(NSString *)text;
+
+-(NSString *)fromPigLatin:(NSString *)text;
 
 @end
